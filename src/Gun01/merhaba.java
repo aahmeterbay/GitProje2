@@ -3,14 +3,17 @@ package Gun01;
 public class merhaba {
     public static void main(String[] args) {
 
-        for (int i=0; i<5 ; i++){
-            System.out.println("merhaba"+i);
+        for (int i = 0; i < 5; i++) {
+            System.out.println("merhaba" + i);
         }
-        int sayac=0;
-        do {
-            System.out.println("yeni merhaba"  );
-            sayac++;
-        }while (sayac<2);
-    }
+        for (int i = 0; i < 4; i++) {
+            System.out.println("merhaba");
+        }
+        int secim=0;
+        while (secim<5){
+            System.out.println("merhaba");
+            secim++;
+        }
 
+    }
 }
